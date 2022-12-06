@@ -30,7 +30,7 @@
     background-color: white;
 }
 
-.task{
+.list{
     padding: 50px;
     border-radius: 5px;
     background-color: white;
@@ -52,3 +52,79 @@
     color: grey;
 }
 
+.label1{
+    padding: 5px;
+    border: 2px solid rgb(71, 71, 204);
+    border-radius: 10px;
+    background-color: rgb(71, 71, 204);
+    color: white;
+    font-size: 12px;
+}
+
+.label2{
+    padding: 5px;
+    border: 2px solid rgb(125, 21, 173);
+    border-radius: 10px;
+    background-color: rgb(125, 21, 173);
+    color: white;
+    font-size: 12px;
+
+}
+
+.label3{
+    padding: 5px;
+    border: 2px solid rgb(21, 173, 127);
+    border-radius: 10px;
+    background-color: rgb(21, 173, 127);
+    color: white;
+    font-size: 12px;
+}
+
+.label4{
+    padding: 5px;
+    border: 2px solid rgb(238, 93, 9);
+    border-radius: 10px;
+    background-color: rgb(238, 93, 9);
+    color: white;
+    font-size: 12px;
+}
+
+.label5{
+    padding: 5px;
+    border: 2px solid rgb(241, 5, 190);
+    border-radius: 10px;
+    background-color: rgb(241, 5, 190);
+    color: white;
+    font-size: 12px;
+}
+
+.label6{
+    padding: 5px;
+    border: 2px solid rgb(92, 241, 5);
+    border-radius: 10px;
+    background-color: rgb(92, 241, 5);
+    color: white;
+    font-size: 12px;
+}
+
+.task{
+    font-size: 20px;
+}
+
+.symbol{
+    list-style-type: none;
+}
+
+.check{
+    border: 2px solid green;
+    border-radius: 100px;
+    color: green;
+    font-size: 20px;
+}
+
+.cross{
+    border: 2px solid red;
+    border-radius: 100px;
+    color: red;
+    font-size: 20px;
+}
