@@ -13,9 +13,8 @@
 }
 
 .Toboolist {
-    
+    vertical-align: top;
     font-size: 40px;
-    
 }
 
 .main{
@@ -25,6 +24,7 @@
 
 .button{
     padding: 10px;
+    padding-left: 30px;
     border-bottom: 2px solid gray;
     border-radius: 5px;
     background-color: white;
@@ -35,3 +35,20 @@
     border-radius: 5px;
     background-color: white;
 }
+
+.add-task{
+    padding: 5px;
+    border: 2px solid blue;
+    border-radius: 5px;
+    background-color: blue;
+    color: white;
+}
+
+.add-section{
+    padding: 5px;
+    border: 2px solid blue;
+    border-radius: 5px;
+    background-color: white;
+    color: grey;
+}
+
