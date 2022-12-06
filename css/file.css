@@ -4,34 +4,38 @@
     margin: 0px;
 }
 
+/* Header pagina e logo */
+
 .header{
     padding: 10px;
 }
 
 .logo{
+    vertical-align: top;
     width: 50px;
 }
 
 .Toboolist {
-    vertical-align: top;
+    font-family: fantasy;
     font-size: 40px;
 }
 
+/* Main pagina con due sezioni */
+
+
 .main{
-    padding: 100px;
+    padding: 90px;
+    padding-top: 40px;
+    margin: 0 auto;
     background-color: grey;
 }
+
+/* Sezione button */
 
 .button{
     padding: 10px;
     padding-left: 30px;
     border-bottom: 2px solid gray;
-    border-radius: 5px;
-    background-color: white;
-}
-
-.list{
-    padding: 50px;
     border-radius: 5px;
     background-color: white;
 }
@@ -52,6 +56,39 @@
     color: grey;
 }
 
+/* Sezione lista */
+
+.list{
+    padding: 50px;
+    padding-left: 30px;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.task{
+    font-size: 20px;
+}
+
+.symbol{
+    list-style-type: none;
+}
+
+.check{
+    border: 2px solid green;
+    border-radius: 100px;
+    color: green;
+    font-size: 20px;
+}
+
+.cross{
+    border: 2px solid red;
+    border-radius: 100px;
+    color: red;
+    font-size: 20px;
+}
+
+/* CSS label  */
+
 .label1{
     padding: 5px;
     border: 2px solid rgb(71, 71, 204);
@@ -68,7 +105,6 @@
     background-color: rgb(125, 21, 173);
     color: white;
     font-size: 12px;
-
 }
 
 .label3{
@@ -105,26 +141,4 @@
     background-color: rgb(92, 241, 5);
     color: white;
     font-size: 12px;
-}
-
-.task{
-    font-size: 20px;
-}
-
-.symbol{
-    list-style-type: none;
-}
-
-.check{
-    border: 2px solid green;
-    border-radius: 100px;
-    color: green;
-    font-size: 20px;
-}
-
-.cross{
-    border: 2px solid red;
-    border-radius: 100px;
-    color: red;
-    font-size: 20px;
 }
